@@ -12,7 +12,7 @@ import dota from "./dota.png";
 import pubg from "./pubg.png";
 import tlou from "./tlou.png";
 import use_context from "./useContext.png";
-import file_context from "./fileContext.png";
+import file_context from "./filecontext.png";
 import btn_click from "./btnclick.png";
 import btn_context from "./btnContext.png";
 import step1_step2 from "./step1_step2.png";
