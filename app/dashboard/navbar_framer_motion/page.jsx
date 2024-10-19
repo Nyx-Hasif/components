@@ -86,7 +86,8 @@ const Page = () => {
           <div onClick={openModal} className="cursor-pointer bg-black text-white px-4 py-2 max-w-[150px] text-center mt-4 hover:bg-red-400 transition-all duration-700">
             View full Code
           </div>
-            
+          <p className="mt-4">Replace <b className="border border-black px-1">window.innerWidth to 100%</b> every component in that code</p> 
+          <p className="mt-1">it is because it could cause an error if not replace it</p> 
       </div>
     </div>
   );

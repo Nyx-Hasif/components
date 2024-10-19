@@ -25,7 +25,7 @@ const Card = () => {
     <motion.div
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+      exit={{ x: "100%", transition: { duration: 0.1 } }}
       className="flex justify-center items-center w-full h-[100vh]  gap-y-8 gap-x-8 py-2 md:py-4 flex-1 flex-wrap border border-black overflow-auto scrollbar-hide"
     >
       {card_data.map((item, index) => {

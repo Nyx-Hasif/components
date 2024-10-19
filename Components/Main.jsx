@@ -27,7 +27,7 @@ const Main = () => {
       className="flex flex-col justify-start items-center min-h-[100vh]"
       initial={{width:0}}
       animate={{width:"100%"}}
-      exit={{x:window.innerWidth,transition:{duration:0.1}}}
+      exit={{x:"100%",transition:{duration:0.1}}}
     
     >
       {/* Image Cards Section */}
@@ -35,7 +35,6 @@ const Main = () => {
         {images.map((item, index) => (
           <div
             key={index}
-            whileHover={{ scale: 1.05 }}
             className="flex flex-col gap-5 border border-black h-max text-center"
           >
             <Image
@@ -72,7 +71,6 @@ const Main = () => {
             />
           </div>
           <button
-            whileHover={{ scale: 1.05 }}
             className="bg-blue-400 hover:bg-blue-700 text-white font-bold px-2 rounded mt-3"
           >
             Subscribe

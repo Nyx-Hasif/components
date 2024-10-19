@@ -15,7 +15,7 @@ const Header = () => {
     <motion.div
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+      exit={{ x: "100%", transition: { duration: 0.1 } }}
       className="flex flex-1 flex-col border-b border-black "
     >
       {/* The div with the "TEST" content */}

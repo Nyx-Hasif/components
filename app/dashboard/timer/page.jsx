@@ -11,7 +11,7 @@ const Page = () => {
 
     // Cleanup function to clear the timer
     return () => clearTimeout(timer);
-  }, []); // Empty array ensures this runs only once
+  }, [count]); // Empty array ensures this runs only once
 
   return (
     <div className="flex flex-1 flex-col">
