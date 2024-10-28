@@ -8,7 +8,7 @@ import { VscReferences } from "react-icons/vsc";
 import { MdOutlineTimer3Select } from "react-icons/md";
 import { BiExpand, BiCollapse } from "react-icons/bi";
 import { TbCarouselHorizontal, TbLayoutNavbarInactive } from "react-icons/tb";
-import { FaShareSquare } from "react-icons/fa";
+import { FaShareSquare, FaFilter } from "react-icons/fa";
 import { IoInfiniteSharp } from "react-icons/io5";
 
 
@@ -94,6 +94,11 @@ const Sidebar = () => {
       name: "Navbar Framer Motion",
       icon: <TbLayoutNavbarInactive className={"text-2xl"} />,
       link: "/dashboard/navbar_framer_motion",
+    },
+    {
+      name: "Filter (useState)",
+      icon: <FaFilter className={"text-2xl"} />,
+      link: "/dashboard/filter",
     },
   ];
 
